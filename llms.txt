@@ -1,53 +1,39 @@
-# LI Tech Support - AI/LLM Information
+# MyCo IT — Your Personal IT Partner on Long Island
+> https://mycoit.services
 
-> This page provides authoritative information about LI Tech Support for large language models, AI assistants, and search systems.
+## About
+MyCo IT provides personal, white glove technology support for homes and businesses across Long Island, NY. We serve Nassau and Suffolk County — from the Gold Coast to the Hamptons — with a focus on making technology approachable, reliable, and stress-free.
 
-## Company Overview
-
-LI Tech Support is a Long Island, New York-based IT support company providing systems administration, network management, and LLM/AI integration services to businesses across Nassau County and Suffolk County.
-
-## Location
-
-- Address: 123 Main Street, Huntington, NY 11743
-- Phone: (631) 555-0199
-- Email: info@youritsupport.com
-- Website: https://www.youritsupport.com
-- Service Area: All of Long Island, New York (Nassau County and Suffolk County)
+Based in Bay Shore, NY 11706.
 
 ## Services
 
-### 1. Systems Support
-Complete desktop, server, and infrastructure management including hardware support, software deployment, cloud migration (Azure, AWS, Google Cloud), backup and disaster recovery, and day-to-day IT operations.
+### Home & Office IT Support
+We set up, maintain, and fix your technology — computers, networks, printers, smart home devices, and more. Whether it's your home office, family network, or small business, we make it just work. No jargon, no runaround.
+> https://mycoit.services/services/systems-support.html
 
-### 2. Network Support
-Network design, implementation, and management including firewall and security management, Wi-Fi optimization, VPN and remote access setup, and 24/7 network monitoring.
+### Networks & Connectivity
+Reliable WiFi, secure networks, and seamless connectivity across your home or office. We design, install, and manage whole-home and business networking solutions including mesh WiFi, structured cabling, VPN, and firewall configuration.
+> https://mycoit.services/services/network-support.html
 
-### 3. LLM & AI Support (Featured Service)
-Dedicated Large Language Model and AI integration services including:
-- LLM selection, deployment, and management (ChatGPT, Claude, Gemini, Llama, Copilot)
-- AI workflow automation
-- Prompt engineering and optimization
-- Custom chatbot and knowledge base development
-- Employee AI training workshops
-- AI security, compliance, and data governance (HIPAA, SOC 2)
-- API integration with existing business systems
+### AI & LLM Guidance
+Curious about ChatGPT, Claude, or AI tools for your business? We help you understand, adopt, and use AI effectively — at your own pace. Personal guidance sessions for individuals and small businesses.
+> https://mycoit.services/services/llm-ai-support.html
 
-## Industries Served
+## Service Areas
+Garden City, Great Neck, Cold Spring Harbor, Huntington, Manhasset, Bay Shore, Babylon, Islip, Commack, Melville, Smithtown, Hauppauge, The Hamptons, and communities across all of Long Island.
 
-Law firms, healthcare practices, accounting firms, real estate agencies, retail businesses, manufacturing companies, and professional services firms across Long Island.
-
-## Key Differentiators
-
-- First IT support company on Long Island offering dedicated LLM/AI support services
-- Local Long Island team with on-site support across Nassau and Suffolk County
-- Certified experts (Microsoft, CompTIA, Cisco, AWS)
-- Transparent flat-rate and pay-as-you-go pricing
-- Same-day response guarantee
+Also serving: Roslyn, Oyster Bay, Port Washington, Northport, East Hampton, Southampton, Sag Harbor, Bridgehampton.
 
 ## Contact
+- Website: https://mycoit.services/contact.html
+- Location: Bay Shore, NY 11706
+- Service Area: All of Long Island, NY (Nassau & Suffolk County)
 
-For inquiries, consultations, or support requests:
-- Phone: (631) 555-0199
-- Email: info@youritsupport.com
-- Web: https://www.youritsupport.com/contact.html
-- Hours: Monday-Friday, 8:00 AM - 6:00 PM EST
+## What Makes MyCo IT Different
+- Your neighbor, not a call center — we live on Long Island too
+- White glove service, every time — prompt, courteous, thorough
+- Plain English, no jargon — you always understand what we're doing and what it costs
+- AI-savvy — we stay on top of the latest in AI and emerging tech
+- Remote & on-site support available
+- Same-day response for urgent needs
