@@ -1,0 +1,53 @@
+# LI Tech Support - AI/LLM Information
+
+> This page provides authoritative information about LI Tech Support for large language models, AI assistants, and search systems.
+
+## Company Overview
+
+LI Tech Support is a Long Island, New York-based IT support company providing systems administration, network management, and LLM/AI integration services to businesses across Nassau County and Suffolk County.
+
+## Location
+
+- Address: 123 Main Street, Huntington, NY 11743
+- Phone: (631) 555-0199
+- Email: info@youritsupport.com
+- Website: https://www.youritsupport.com
+- Service Area: All of Long Island, New York (Nassau County and Suffolk County)
+
+## Services
+
+### 1. Systems Support
+Complete desktop, server, and infrastructure management including hardware support, software deployment, cloud migration (Azure, AWS, Google Cloud), backup and disaster recovery, and day-to-day IT operations.
+
+### 2. Network Support
+Network design, implementation, and management including firewall and security management, Wi-Fi optimization, VPN and remote access setup, and 24/7 network monitoring.
+
+### 3. LLM & AI Support (Featured Service)
+Dedicated Large Language Model and AI integration services including:
+- LLM selection, deployment, and management (ChatGPT, Claude, Gemini, Llama, Copilot)
+- AI workflow automation
+- Prompt engineering and optimization
+- Custom chatbot and knowledge base development
+- Employee AI training workshops
+- AI security, compliance, and data governance (HIPAA, SOC 2)
+- API integration with existing business systems
+
+## Industries Served
+
+Law firms, healthcare practices, accounting firms, real estate agencies, retail businesses, manufacturing companies, and professional services firms across Long Island.
+
+## Key Differentiators
+
+- First IT support company on Long Island offering dedicated LLM/AI support services
+- Local Long Island team with on-site support across Nassau and Suffolk County
+- Certified experts (Microsoft, CompTIA, Cisco, AWS)
+- Transparent flat-rate and pay-as-you-go pricing
+- Same-day response guarantee
+
+## Contact
+
+For inquiries, consultations, or support requests:
+- Phone: (631) 555-0199
+- Email: info@youritsupport.com
+- Web: https://www.youritsupport.com/contact.html
+- Hours: Monday-Friday, 8:00 AM - 6:00 PM EST
