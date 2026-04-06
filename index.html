@@ -1,262 +1,148 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="MyCo IT — Your Personal IT Partner on Long Island. White glove tech support for homes and businesses across Nassau and Suffolk County. Networks, cybersecurity, AI guidance, and more.">
-    <meta name="keywords" content="IT support Long Island, personal IT partner, home IT support Nassau County, small business IT Suffolk County, AI guidance Long Island, white glove tech support, MyCo IT">
-    <meta name="geo.region" content="US-NY">
-    <meta name="geo.placename" content="Long Island, New York">
-    <title>MyCo IT | Your Personal IT Partner on Long Island</title>
-    <link rel="canonical" href="https://mycoit.services/">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&display=swap" rel="stylesheet">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="MyCo IT is Long Island's private technology concierge. Personal technology management, AI advisory, cybersecurity, and home & office tech design. Based in Garden City, serving all of Long Island.">
+  <meta name="keywords" content="private technology concierge Long Island, personal IT management Garden City, AI advisory Nassau County, cybersecurity Suffolk County, MyCo IT">
+  <meta name="geo.region" content="US-NY">
+  <meta name="geo.placename" content="Garden City, New York">
+  <title>MyCo IT | Private Technology Concierge — Long Island, New York</title>
+  <link rel="canonical" href="https://mycoit.services/">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&display=swap" rel="stylesheet">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "@id": "https://mycoit.services/#business",
+    "name": "MyCo IT",
+    "description": "MyCo IT is Long Island's private technology concierge, providing personal technology management, AI advisory, digital privacy and security, and home and office technology design for discerning homes and businesses across Nassau and Suffolk County.",
+    "url": "https://mycoit.services",
+    "email": "info@mycoit.services",
+    "areaServed": [
+      {"@type": "Place", "name": "Long Island"},
+      {"@type": "County", "name": "Nassau County", "containedInPlace": {"@type": "State", "name": "New York"}},
+      {"@type": "County", "name": "Suffolk County", "containedInPlace": {"@type": "State", "name": "New York"}}
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Garden City",
+      "addressRegion": "NY",
+      "postalCode": "11530",
+      "addressCountry": "US"
+    },
+    "hasOfferCatalog": {
+      "@type": "OfferCatalog",
+      "name": "Private Technology Services",
+      "itemListElement": [
+        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Personal Technology Management"}},
+        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "AI & Intelligent Systems Advisory"}},
+        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Digital Privacy & Security"}},
+        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Home & Office Technology Design"}}
+      ]
+    },
+    "sameAs": ["https://facebook.com/mycoitservices","https://instagram.com/mycoitservices"]
+  }
+  </script>
+</head>
+<body>
+<header class="site-header" id="top"><div class="container header-inner">
+  <a href="/" class="logo" aria-label="MyCo IT Home"><span class="logo-text"><span class="logo-accent">MyCo</span> IT</span><span class="logo-tagline">Private Technology Concierge</span></a>
+  <nav class="main-nav" aria-label="Main navigation"><ul class="nav-list">
+    <li><a href="/" class="nav-link active">Home</a></li>
+    <li class="has-dropdown"><a href="#services" class="nav-link">Services</a><ul class="dropdown"><li><a href="services/systems-support.html">Personal Technology Management</a></li><li><a href="services/llm-ai-support.html">AI &amp; Intelligent Systems Advisory</a></li><li><a href="#">Digital Privacy &amp; Security</a></li><li><a href="services/network-support.html">Home &amp; Office Technology Design</a></li></ul></li>
+    <li><a href="#areas" class="nav-link">Service Areas</a></li>
+    <li><a href="about.html" class="nav-link">About</a></li>
+    <li><a href="contact.html" class="nav-link">Contact</a></li>
+  </ul></nav>
+  <div class="header-cta"><a href="contact.html" class="btn btn-primary">Schedule a Consultation</a></div>
+  <button class="mobile-menu-toggle" aria-label="Toggle menu" aria-expanded="false"><span class="hamburger"></span></button>
+</div></header>
 
-    <script type="application/ld+json">
-        {
-            "@context": "https://schema.org",
-            "@type": "LocalBusiness",
-            "@id": "https://mycoit.services/#business",
-            "name": "MyCo IT",
-            "description": "Your Personal IT Partner on Long Island. White glove technology support for homes and businesses — from network setup and cybersecurity to AI guidance. Serving all of Long Island, NY.",
-            "url": "https://mycoit.services",
-            "email": "info@mycoit.services",
-            "areaServed": [
-                {"@type": "County", "name": "Nassau County", "containedInPlace": {"@type": "State", "name": "New York"}},
-                {"@type": "County", "name": "Suffolk County", "containedInPlace": {"@type": "State", "name": "New York"}}
-            ],
-            "address": {
-                "@type": "PostalAddress",
-                "addressLocality": "Bay Shore",
-                "addressRegion": "NY",
-                "postalCode": "11706",
-                "addressCountry": "US"
-            },
-            "geo": {
-                "@type": "GeoCoordinates",
-                "latitude": "40.7254",
-                "longitude": "-73.2454"
-            },
-            "serviceType": ["IT Support", "Network Support", "AI & LLM Guidance", "Cybersecurity", "Home IT Support"],
-            "priceRange": "$$",
-            "aggregateRating": {
-                "@type": "AggregateRating",
-                "ratingValue": "5.0",
-                "reviewCount": "47"
-            }
-        }
-    </script>
-  </head>
-  <body>
-    <header class="site-header">
-      <div class="container">
-        <div class="header-inner">
-          <a href="/" class="logo">
-            <span class="logo-accent">MyCo</span> IT
-          </a>
-          <nav>
-            <ul class="nav-list">
-              <li><a href="/" class="nav-link active">Home</a></li>
-              <li class="has-dropdown">
-                <a href="#services" class="nav-link">Services</a>
-                <div class="dropdown">
-                  <a href="services/systems-support.html">Home & Office IT</a>
-                  <a href="services/network-support.html">Networks & Connectivity</a>
-                  <a href="services/llm-ai-support.html">AI & LLM Guidance</a>
-                </div>
-              </li>
-              <li class="has-dropdown">
-                <a href="#areas" class="nav-link">Service Areas</a>
-                <div class="dropdown">
-                  <a href="areas/huntington.html">Huntington</a>
-                  <a href="#areas">All Areas</a>
-                </div>
-              </li>
-              <li><a href="#about" class="nav-link">About</a></li>
-              <li><a href="contact.html" class="nav-link">Contact</a></li>
-            </ul>
-          </nav>
-          <div class="header-cta">
-            <a href="contact.html" class="btn btn-primary">Get Started</a>
-          </div>
-          <button class="mobile-menu-toggle" aria-label="Toggle menu">
-            <span class="hamburger"></span>
-          </button>
-        </div>
-      </div>
-    </header>
+<section class="hero"><div class="container hero-inner">
+  <div class="hero-content">
+    <div class="hero-badge">Private Technology Concierge — Long Island, New York</div>
+    <h1>Technology Should Work <span class="text-gradient">Seamlessly</span></h1>
+    <p class="hero-subtitle">When it doesn't, we're already on our way. MyCo IT provides personal technology management for discerning homes and businesses across Long Island — from Garden City to the Hamptons.</p>
+    <div class="hero-ctas"><a href="contact.html" class="btn btn-primary btn-lg">Schedule a Consultation</a><a href="#services" class="btn btn-outline-white btn-lg">Learn More</a></div>
+    <div class="hero-trust">
+      <div class="trust-item"><span class="trust-icon">&#10022;</span><span>White Glove Service</span></div>
+      <div class="trust-item"><span class="trust-icon">&#9201;</span><span>Same-Day Response</span></div>
+      <div class="trust-item"><span class="trust-icon">&#128421;</span><span>Remote &amp; On-Site</span></div>
+      <div class="trust-item"><span class="trust-icon">&#127968;</span><span>Serving All of Long Island</span></div>
+    </div>
+  </div>
+  <div class="hero-image"><img src="images/hero-it-support.png" alt="MyCo IT — Private Technology Concierge for Long Island" width="600" height="450" style="max-width:100%;height:auto;border-radius:16px;"></div>
+</div></section>
 
-    <section class="hero">
-      <div class="container">
-        <div class="hero-grid">
-          <div class="hero-content">
-            <div class="hero-badge">Serving All of Long Island</div>
-            <h1>Your Personal <span class="logo-accent">IT Partner</span> on Long Island</h1>
-            <p>We take tech headaches off your plate — from home networks and cybersecurity to AI guidance — so you can focus on what matters. White glove service across Long Island.</p>
-            <div class="hero-buttons">
-              <a href="contact.html" class="btn btn-primary btn-lg">Schedule Free Consultation</a>
-              <a href="#services" class="btn btn-outline btn-lg">Our Services</a>
-            </div>
-            <div class="trust-badges">
-              <div class="trust-badge">⭐ 5-Star Rated</div>
-              <div class="trust-badge">⚡ Same-Day Response</div>
-              <div class="trust-badge">🤝 White Glove Service</div>
-              <div class="trust-badge">🖥️ Remote & On-Site</div>
-            </div>
-          </div>
-          <div class="hero-image">
-            <img src="images/hero-it-support.png" alt="Friendly IT professional helping set up technology in a bright home office" width="600" height="400">
-          </div>
-        </div>
-      </div>
-    </section>
+<section class="featured-llm" id="ai-support"><div class="container"><div class="featured-llm-inner">
+  <div class="featured-llm-badge">Advisory Service</div>
+  <div class="featured-llm-content">
+    <div class="featured-llm-text">
+      <h2>AI &amp; Intelligent Systems Advisory</h2>
+      <p>AI is transforming how we work and live. We help you understand it, adopt it wisely, and use it effectively — on your terms, at your pace. No jargon, no pressure. Just clear guidance from an advisor who knows your world.</p>
+      <ul class="feature-list"><li>AI tool selection &amp; guidance (ChatGPT, Claude, Gemini)</li><li>Workflow automation &amp; smart home integration</li><li>Privacy-first AI implementation</li><li>Employee &amp; family AI literacy training</li><li>Custom solutions for your specific needs</li></ul>
+      <a href="services/llm-ai-support.html" class="btn btn-accent btn-lg">Explore AI Advisory &rarr;</a>
+    </div>
+    <div class="featured-llm-visual"><img src="images/llm-ai-support.png" alt="AI and Intelligent Systems Advisory — MyCo IT" width="500" height="400" style="max-width:100%;height:auto;border-radius:16px;"></div>
+  </div>
+</div></div></section>
 
-    <section id="services">
-      <div class="container">
-        <div class="section-header">
-          <span class="section-label">What We Do</span>
-          <h2>Technology Support That Feels Personal</h2>
-          <p>Whether it's your home, your office, or your curiosity about AI — we make technology work for you, not the other way around.</p>
-        </div>
-        <div class="services-grid">
-          <div class="service-card">
-            <div class="service-icon">🖥️</div>
-            <h3>Home & Office IT Support</h3>
-            <p>Whether it's your home office, family network, or small business — we set up, maintain, and fix your technology so it just works. No jargon, no runaround.</p>
-            <a href="services/systems-support.html" class="service-link">Learn More →</a>
-          </div>
-          <div class="service-card">
-            <div class="service-icon">📡</div>
-            <h3>Networks & Connectivity</h3>
-            <p>Reliable WiFi, secure networks, and seamless connectivity across your home or office. We design, install, and manage it all.</p>
-            <a href="services/network-support.html" class="service-link">Learn More →</a>
-          </div>
-          <div class="service-card">
-            <div class="service-icon">🤖</div>
-            <h3>AI & LLM Guidance</h3>
-            <p>Curious about ChatGPT, Claude, or AI tools for your business? We help you understand, adopt, and use AI effectively — at your own pace.</p>
-            <a href="services/llm-ai-support.html" class="service-link">Learn More →</a>
-          </div>
-        </div>
-      </div>
-    </section>
+<section class="services" id="services"><div class="container">
+  <div class="section-header"><h2>What We Do</h2><p>No call centers. No ticket queues. Just a trusted advisor who knows your systems.</p></div>
+  <div class="services-grid">
+    <div class="service-card"><div class="service-icon">&#128187;</div><h3><a href="services/systems-support.html">Personal Technology Management</a></h3><p>Your technology, fully managed. From setup to daily support — laptops, desktops, cloud accounts, backups, and everything in between. We handle it so you don't have to think about it.</p><a href="services/systems-support.html" class="btn btn-secondary">Learn More &rarr;</a></div>
+    <div class="service-card"><div class="service-icon">&#129302;</div><h3><a href="services/llm-ai-support.html">AI &amp; Intelligent Systems Advisory</a></h3><p>Curious about AI? We guide you through the landscape — helping you adopt the right tools securely and effectively, whether for your business or personal use.</p><a href="services/llm-ai-support.html" class="btn btn-secondary">Learn More &rarr;</a></div>
+    <div class="service-card"><div class="service-icon">&#128274;</div><h3>Digital Privacy &amp; Security</h3><p>Your digital life protected. We implement real security — not just antivirus — covering your devices, network, email, passwords, and online privacy.</p><a href="contact.html" class="btn btn-secondary">Learn More &rarr;</a></div>
+    <div class="service-card"><div class="service-icon">&#127968;</div><h3><a href="services/network-support.html">Home &amp; Office Technology Design</a></h3><p>Beautiful technology that works. We design, install, and optimize networks, home offices, smart home systems, and workspaces that feel effortless.</p><a href="services/network-support.html" class="btn btn-secondary">Learn More &rarr;</a></div>
+  </div>
+</div></section>
 
-    <section class="alt-bg">
-      <div class="container">
-        <div class="section-header">
-          <span class="section-label">The MyCo IT Difference</span>
-          <h2>Why Clients Choose MyCo IT</h2>
-          <p>We're not a faceless help desk. We're your neighbors — and we treat your tech like our own.</p>
-        </div>
-        <div class="reasons-grid">
-          <div class="reason-card">
-            <div class="reason-icon">🏘️</div>
-            <div>
-              <h3>Your Neighbor, Not a Call Center</h3>
-              <p>We live on Long Island too. When you call, you get a real person who knows your setup.</p>
-            </div>
-          </div>
-          <div class="reason-card">
-            <div class="reason-icon">✨</div>
-            <div>
-              <h3>White Glove, Every Time</h3>
-              <p>We treat every client like our only client. Prompt, courteous, thorough — the service you'd expect from a premium concierge.</p>
-            </div>
-          </div>
-          <div class="reason-card">
-            <div class="reason-icon">💬</div>
-            <div>
-              <h3>Plain English, No Jargon</h3>
-              <p>We explain things clearly. You'll always understand what we're doing, why, and what it costs.</p>
-            </div>
-          </div>
-          <div class="reason-card">
-            <div class="reason-icon">🧠</div>
-            <div>
-              <h3>AI-Savvy</h3>
-              <p>We stay on top of the latest in AI and emerging tech so you don't have to. Ask us anything.</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
+<section class="why-us"><div class="container">
+  <div class="section-header"><h2>Why Clients Choose MyCo IT</h2></div>
+  <div class="why-grid">
+    <div class="why-item"><div class="why-number">01</div><h3>Your Advisor, Not a Call Center</h3><p>When you call, a real person answers — someone who already knows your setup, your preferences, and your history.</p></div>
+    <div class="why-item"><div class="why-number">02</div><h3>White Glove, Every Visit</h3><p>We treat every client like our only client. Prompt, courteous, thorough — the service you'd expect from a private concierge.</p></div>
+    <div class="why-item"><div class="why-number">03</div><h3>Plain English, Always</h3><p>We explain everything clearly. You'll always know what we're doing, why, and what it costs. No surprises.</p></div>
+    <div class="why-item"><div class="why-number">04</div><h3>Quietly Cutting-Edge</h3><p>We stay current with AI, security, and emerging tech so you don't have to. When something matters for you, we'll let you know.</p></div>
+  </div>
+</div></section>
 
-    <section id="areas">
-      <div class="container">
-        <div class="section-header">
-          <span class="section-label">Where We Work</span>
-          <h2>Serving All of Long Island</h2>
-          <p>From the Gold Coast to the Hamptons — personal IT support wherever you are.</p>
-        </div>
-        <div class="areas-grid">
-          <a href="#" class="area-card"><div class="area-icon">📍</div><h3>Garden City</h3></a>
-          <a href="#" class="area-card"><div class="area-icon">📍</div><h3>Great Neck</h3></a>
-          <a href="#" class="area-card"><div class="area-icon">📍</div><h3>Cold Spring Harbor</h3></a>
-          <a href="areas/huntington.html" class="area-card"><div class="area-icon">📍</div><h3>Huntington</h3></a>
-          <a href="#" class="area-card"><div class="area-icon">📍</div><h3>Manhasset</h3></a>
-          <a href="#" class="area-card"><div class="area-icon">📍</div><h3>Bay Shore</h3></a>
-          <a href="#" class="area-card"><div class="area-icon">📍</div><h3>Babylon</h3></a>
-          <a href="#" class="area-card"><div class="area-icon">📍</div><h3>Islip</h3></a>
-          <a href="#" class="area-card"><div class="area-icon">📍</div><h3>Commack</h3></a>
-          <a href="#" class="area-card"><div class="area-icon">📍</div><h3>Melville</h3></a>
-          <a href="#" class="area-card"><div class="area-icon">📍</div><h3>Smithtown</h3></a>
-          <a href="#" class="area-card"><div class="area-icon">📍</div><h3>Hauppauge</h3></a>
-          <a href="#" class="area-card"><div class="area-icon">📍</div><h3>The Hamptons</h3></a>
-        </div>
-        <p class="areas-also">Also serving: Roslyn, Oyster Bay, Port Washington, Northport, East Hampton, Southampton, Sag Harbor, Bridgehampton, and communities across Nassau & Suffolk County.</p>
-      </div>
-    </section>
+<section class="areas" id="areas"><div class="container">
+  <div class="section-header"><h2>Serving All of Long Island</h2><p>Based in Garden City. On-site and remote support from the Gold Coast to the Hamptons.</p></div>
+  <div class="areas-grid">
+    <a href="#" class="area-card"><h3>Garden City</h3><p>Home Base</p></a>
+    <a href="#" class="area-card"><h3>Great Neck</h3><p>Nassau County</p></a>
+    <a href="#" class="area-card"><h3>Manhasset</h3><p>Nassau County</p></a>
+    <a href="#" class="area-card"><h3>Cold Spring Harbor</h3><p>Nassau / Suffolk</p></a>
+    <a href="#" class="area-card"><h3>Roslyn</h3><p>Nassau County</p></a>
+    <a href="#" class="area-card"><h3>Oyster Bay</h3><p>Nassau County</p></a>
+    <a href="areas/huntington.html" class="area-card"><h3>Huntington</h3><p>Suffolk County</p></a>
+    <a href="#" class="area-card"><h3>Bay Shore</h3><p>Suffolk County</p></a>
+    <a href="#" class="area-card"><h3>Babylon</h3><p>Suffolk County</p></a>
+    <a href="#" class="area-card"><h3>The Hamptons</h3><p>East End</p></a>
+  </div>
+  <p class="areas-note">Also serving Port Washington, Old Westbury, Northport, Jericho, Syosset, Mineola, Rockville Centre, Massapequa, Commack, Melville, Smithtown, Islip, Hauppauge, East Hampton, Southampton, Sag Harbor, and all communities across Nassau and Suffolk County.</p>
+</div></section>
 
-    <section class="cta-section">
-      <div class="container">
-        <h2>Ready to Make Tech Easy?</h2>
-        <p>Schedule a free consultation and see what personal IT support feels like.</p>
-        <div class="cta-buttons">
-          <a href="contact.html" class="btn btn-primary btn-lg">Book a Free Consultation</a>
-          <a href="#services" class="btn btn-outline btn-lg">Explore Services</a>
-        </div>
-      </div>
-    </section>
+<section class="cta-section"><div class="container"><div class="cta-inner">
+  <h2>Ready to Experience the Difference?</h2>
+  <p>Schedule a complimentary consultation and discover what personal technology management feels like.</p>
+  <div class="cta-buttons"><a href="contact.html" class="btn btn-primary btn-lg">Schedule a Consultation</a></div>
+</div></div></section>
 
-    <footer class="site-footer">
-      <div class="container">
-        <div class="footer-grid">
-          <div class="footer-brand">
-            <div class="logo"><span class="logo-accent">MyCo</span> IT</div>
-            <p>Your Personal IT Partner on Long Island. White glove technology support for homes and businesses — from network setup and cybersecurity to AI guidance.</p>
-            <div class="footer-social">
-              <a href="#" aria-label="Facebook">FB</a>
-              <a href="#" aria-label="Instagram">IG</a>
-            </div>
-          </div>
-          <div class="footer-col">
-            <h4>Services</h4>
-            <a href="services/systems-support.html">Home & Office IT</a>
-            <a href="services/network-support.html">Networks & Connectivity</a>
-            <a href="services/llm-ai-support.html">AI & LLM Guidance</a>
-          </div>
-          <div class="footer-col">
-            <h4>Service Areas</h4>
-            <a href="areas/huntington.html">Huntington</a>
-            <a href="#areas">Garden City</a>
-            <a href="#areas">Great Neck</a>
-            <a href="#areas">The Hamptons</a>
-            <a href="#areas">All Areas</a>
-          </div>
-          <div class="footer-col">
-            <h4>Contact</h4>
-            <a href="contact.html">Get in Touch</a>
-            <p style="color:rgba(255,255,255,0.7);font-size:0.9rem;padding:6px 0;">Bay Shore, NY 11706</p>
-            <p style="color:rgba(255,255,255,0.7);font-size:0.9rem;padding:6px 0;">Phone Coming Soon</p>
-          </div>
-        </div>
-        <div class="footer-bottom">
-          <p>&copy; 2026 MyCo IT. All rights reserved.</p>
-          <p>Serving Long Island, NY — Nassau & Suffolk County</p>
-        </div>
-      </div>
-    </footer>
-  </body>
-</html>
+<footer class="site-footer"><div class="container">
+  <div class="footer-grid">
+    <div class="footer-col footer-about"><a href="/" class="footer-logo"><span class="logo-text"><span class="logo-accent">MyCo</span> IT</span></a><p>Private Technology Concierge. Personal technology management for discerning homes and businesses across Long Island.</p><address>Garden City, NY 11530<br><a href="mailto:info@mycoit.services">info@mycoit.services</a></address><div class="footer-social"><a href="https://facebook.com/mycoitservices" aria-label="Facebook" target="_blank" rel="noopener">FB</a><a href="https://instagram.com/mycoitservices" aria-label="Instagram" target="_blank" rel="noopener">IG</a></div></div>
+    <div class="footer-col"><h4>Services</h4><ul><li><a href="services/systems-support.html">Personal Technology Management</a></li><li><a href="services/llm-ai-support.html">AI &amp; Intelligent Systems Advisory</a></li><li><a href="#">Digital Privacy &amp; Security</a></li><li><a href="services/network-support.html">Home &amp; Office Technology Design</a></li></ul></div>
+    <div class="footer-col"><h4>Service Areas</h4><ul><li><a href="#">Garden City</a></li><li><a href="#">Great Neck</a></li><li><a href="#">Manhasset</a></li><li><a href="#">Cold Spring Harbor</a></li><li><a href="areas/huntington.html">Huntington</a></li><li><a href="#">Bay Shore</a></li><li><a href="#">The Hamptons</a></li></ul></div>
+    <div class="footer-col"><h4>Company</h4><ul><li><a href="about.html">About</a></li><li><a href="contact.html">Contact</a></li><li><a href="llms.txt">AI/LLM Info</a></li></ul></div>
+  </div>
+  <div class="footer-bottom"><p>&copy; 2026 MyCo IT. All rights reserved.</p><p>Serving Long Island, Nassau County &amp; Suffolk County, NY</p></div>
+</div></footer>
+<script src="js/main.js"></script>
+</body>
+                                                                                                                                                                                                                                                                                                                                                                         </html>
